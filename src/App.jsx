@@ -42,13 +42,16 @@ function App() {
           </div>
 
           <p className="what-we-do">
-            D-DAP is a student-run club for designers interested in areas like
-            web design, UX and creative coding.
+            D-DAP (pronounced dee-dap) is a student-run club for designers and creative 
+            technologists interested in areas like web design, UIUX, creative coding, 
+            Touchdesigner, and all things related to the intersection of design and 
+            tech!
           </p>
           <p className="what-we-do">
-            We meet on either <u>Mondays or Thursdays from 4-6pm,</u> either hosting guest
-            speakers, live demos or co-working in <u>Room 804, 2W 13th St.</u> Any upcoming events
-            will be updated on this website, as well as our{" "}
+            We host guest speakers and workshops throughout the semesters.
+            We currently have weekly co-working sessions every <u>Tuesday 5–7pm</u> 
+            in <u>2 W 13th St, Room 404</u> Any upcoming events will be 
+            updated on this website, as well as our{" "}
             <a href="http://instagram.com/digitaldesignatparsons" target="_blank">
               Instagram
             </a>{" "}
@@ -60,6 +63,12 @@ function App() {
               e-mail updates
             </a>{" "}
             about upcoming events, and announce monthly guest speaker lineup at the start of every month.<br />
+          </p>
+
+          <p>
+            We are always open to collaboration —
+             whether you are an artist, technology enthusiast 
+             or another student organisation, please don’t hesitate to reach out!
           </p>
           <p>
             If you have any questions, or would like to contribute to the club, feel free to email us at 

@@ -11,52 +11,35 @@ const Team = () => {
       id: "pic1",
     },
     {
-      headshot: "/polaroids/Deeva Thomas - Vice President.png",
-      name: "Deeva Thomas",
+     // headshot: "/polaroids/Isabella Tedesco.png",
+      name: "Isabella Tedesco",
       title: "Vice President",
       id: "pic2",
     },
     {
-      headshot:
-        "/polaroids/Mark Wong - Designer.png",
-      name: "Mark Wong",
-      title: "Head of Design",
+      //headshot: "/polaroids/Mark Wong - Designer.png",
+      name: "Keyaa Kapadia",
+      title: "Event Organizer",
       id: "pic3",
     },
     {
-      headshot: "/polaroids/Ketana Anekar - Treasurer.png",
-      name: "Ketana Anekar",
-      title: "Treasurer",
+      //headshot: "/polaroids/Ketana Anekar - Treasurer.png",
+      name: "Veronica Loza",
+      title: "Media Director",
       id: "pic4",
     },
     {
-      headshot:
-        "/polaroids/Minkyung Cho - Developer.png",
-      name: "Minkyung Cho",
-      title: "Developer",
+      //headshot:"/polaroids/Minkyung Cho - Developer.png",
+      name: "Spriha Reddy",
+      title: "Treasurer",
       id: "pic5",
     },
     {
-      headshot:
-        "/polaroids/charis pao.png",
-      name: "Charis Pao",
+      //headshot: "/polaroids/charis pao.png",
+      name: "Emily Yao",
       title: "Media Director",
       id: "pic6",
     },
-    {
-      headshot:
-        "/polaroids/Reika Oh - Media Director.png",
-      name: "Reika Oh",
-      title: "Media Director",
-      id: "pic7",
-    },
-    {
-      headshot:
-        "/polaroids/Joseph Crosthwaite - Operations.png",
-      name: "Joseph Crosthwaite",
-      title: "Operations",
-      id: "pic8",
-    }
   ];
 
   return (
