@@ -11,19 +11,19 @@ const Team = () => {
       id: "pic1",
     },
     {
-     // headshot: "/polaroids/Isabella Tedesco.png",
+     headshot: "/polaroids/Isabella Tedesco - Vice President.JPG",
       name: "Isabella Tedesco",
       title: "Vice President",
       id: "pic2",
     },
     {
-      //headshot: "/polaroids/Mark Wong - Designer.png",
+      headshot: "/polaroids/Keyaa Kapadia - Event Organizer.JPG",
       name: "Keyaa Kapadia",
       title: "Event Organizer",
       id: "pic3",
     },
     {
-      //headshot: "/polaroids/Ketana Anekar - Treasurer.png",
+      headshot: "/polaroids/Veronica Loza - Media Director.JPEG",
       name: "Veronica Loza",
       title: "Media Director",
       id: "pic4",
