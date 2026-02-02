@@ -35,7 +35,7 @@ const Team = () => {
       id: "pic5",
     },
     {
-      //headshot: "/polaroids/charis pao.png",
+      headshot: "/polaroids/Emily Yao - Media Director.png",
       name: "Emily Yao",
       title: "Media Director",
       id: "pic6",
