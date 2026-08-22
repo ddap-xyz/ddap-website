@@ -4,42 +4,30 @@ const Team = () => {
   // Placeholder data with three properties: headshot, name, and title
   const teamMembers = [
     {
-      headshot:
-        "/polaroids/Jennifer Lee - President.png",
-      name: "Jennifer Lee",
-      title: "President",
+     headshot: "/polaroids/Isabella Tedesco - Internal Logistics Lead.png",
+      name: "Isabella Tedesco",
+      title: "Internal Logistics Lead",
       id: "pic1",
     },
     {
-     headshot: "/polaroids/Isabella Tedesco - Vice President.png",
-      name: "Isabella Tedesco",
-      title: "Vice President",
+      headshot: "/polaroids/Keyaa Kapadia - Media Lead.png",
+      name: "Keyaa Kapadia",
+      title: "Media Lead",
       id: "pic2",
     },
     {
-      headshot: "/polaroids/Keyaa Kapadia - Event Organizer.png",
-      name: "Keyaa Kapadia",
-      title: "Event Organizer",
-      id: "pic3",
-    },
-    {
-      headshot: "/polaroids/Veronica Loza - Media Director.png",
+      headshot: "/polaroids/Veronica Loza - Design Lead.png",
       name: "Veronica Loza",
-      title: "Media Director",
-      id: "pic4",
+      title: "Design Lead",
+      id: "pic3",
     },
     {
       //headshot:"/polaroids/Minkyung Cho - Developer.png",
       name: "Spriha Reddy",
-      title: "Treasurer",
-      id: "pic5",
+      title: "Outreach Lead",
+      id: "pic4",
     },
-    {
-      headshot: "/polaroids/Emily Yao - Media Director.png",
-      name: "Emily Yao",
-      title: "Media Director",
-      id: "pic6",
-    },
+    
   ];
 
   return (
