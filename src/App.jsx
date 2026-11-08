@@ -42,19 +42,22 @@ function App() {
           </div>
 
           <p className="what-we-do">
-            D-DAP (pronounced dee-dap) is a student-run club for designers and creative 
-            technologists interested in areas like web design, UIUX, creative coding, 
-            Touchdesigner, and all things related to the intersection of design and 
+            D-DAP (pronounced dee-dap) is a student-run club for designers and creative
+            technologists interested in areas like web design, UIUX, creative coding,
+            Touchdesigner, and all things related to the intersection of design and
             tech!
           </p>
           <p className="what-we-do">
             We host guest speakers and workshops throughout the semesters.
-            We currently have weekly co-working sessions every <u>Tuesday 5–7pm</u> 
-            in <u>2 W 13th St, Room 404</u> Any upcoming events will be 
-            updated on this website, as well as our{" "}
-            <a href="http://instagram.com/digitaldesignatparsons" target="_blank">
+            Any upcoming events will be updated on this website, as well as our{" "}
+            <a href="https://www.instagram.com/digitaldesignatparsons" target="_blank">
               Instagram
-            </a>{" "}
+            </a>
+            . We also feature digital work on our instagram! If you are interested in being featured, use this form{" "}
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmPSPNh8N5w3PWxJPVBJqw7z6jKMWaHQ-smRHJmOB1e6yk-Q/viewform?usp=header" target="_blank">
+              here
+            </a>
+            .
           </p>
           <p>Our meetings are open to everyone !</p>
           <p>
@@ -67,11 +70,11 @@ function App() {
 
           <p>
             We are always open to collaboration —
-             whether you are an artist, technology enthusiast 
-             or another student organisation, please don’t hesitate to reach out!
+            whether you are an artist, technology enthusiast
+            or another student organisation, please don’t hesitate to reach out!
           </p>
           <p>
-            If you have any questions, or would like to contribute to the club, feel free to email us at 
+            If you have any questions, or would like to contribute to the club, feel free to email us at
             <a href="mailto:ddap@newschool.edu"> ddap@newschool.edu</a>! ꕤꕤꕤꕤꕤ
             <br />
           </p>

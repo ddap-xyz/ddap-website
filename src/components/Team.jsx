@@ -5,7 +5,7 @@ const Team = () => {
   const teamMembers = [
 
     {
-      headshot: "/polaroids/Veronica Loza President.jpg",
+      headshot: "/polaroids/Veronica Loza President 1.png",
       name: "Veronica Loza",
       title: "President",
       id: "pic1",
@@ -23,7 +23,7 @@ const Team = () => {
       id: "pic3",
     },
     {
-      headshot: "/polaroids/Greg Lippert - Design Associate.jpg",
+      headshot: "/polaroids/Greg Lippert - Design Associate 1.png",
       name: "Greg Lippert",
       title: "Design Associate",
       id: "pic4",
