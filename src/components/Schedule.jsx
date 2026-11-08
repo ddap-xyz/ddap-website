@@ -1,6 +1,23 @@
 import { useState, useEffect } from "react";
 import Papa from "papaparse";
 
+const featuredEvents = [
+  {
+    status: "upcoming",
+    event: "Eric Li",
+    month: "Nov",
+    date: "18",
+    type: "Guest Speaker",
+    subject: "UC L105",
+    description:
+      "We're excited to welcome back Eric Li, a designer, software engineer, and a professor at Parsons! Eric works as a design engineer at Notion, and was formerly a digital product director at the Eames Institute, as well as a senior product designer and developer at MoMA.<br><br>Join us on Wednesday, Nov 18, in UC L105, 63 5th Ave. Seats are limited and available on a first-come, first-served basis.",
+    link1: "https://www.instagram.com/p/DfSirUAK_Nm/",
+    link1title: "Instagram",
+    link2: "https://eric.young.li",
+    link2title: "Website",
+  },
+];
+
 function Schedule() {
   const sheetURL =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2HmMzSp-fzXfyhTXkTHZ7p-h9R9osPbOVvV8vR9_PK7flc0sh_s10t5nPg4FaH2CF_W2N06QpYxNt/pub?gid=1482207102&single=true&output=csv";
@@ -10,8 +27,11 @@ function Schedule() {
       Papa.parse(sheetURL, {
         download: true,
         header: true,
-        complete: function (results, file) {
-          resolve(results.data);
+        complete: function (results) {
+          resolve(results.data || []);
+        },
+        error: function () {
+          resolve([]);
         },
       });
     });
@@ -25,9 +45,12 @@ function Schedule() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetchData()
-      .then((response) => response.filter((item) => item.status === "upcoming"))
-      .then((filtered) => setData(filtered));
+    fetchData().then((response) => {
+      const upcoming = response.filter((item) => item.status === "upcoming");
+      const existingLinks = new Set(upcoming.map((item) => item.link1));
+      const extras = featuredEvents.filter((item) => !existingLinks.has(item.link1));
+      setData([...extras, ...upcoming]);
+    });
   }, []);
 
   const handleShowAllEvents = () => {
