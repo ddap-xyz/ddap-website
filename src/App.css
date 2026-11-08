@@ -338,7 +338,6 @@ button:hover {
 .team-member-headshot {
   width: 90%;
   padding-bottom: 5%;
-  filter: drop-shadow(-0.25rem 0.25rem 0.2rem #b8b8b8);
 }
 
 #pic1 {
